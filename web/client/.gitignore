@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-/dist
+# /dist (included so go:embed works out of the box without requiring npm build)
 
 /tests/e2e/videos/
 /tests/e2e/screenshots/
